@@ -1,0 +1,260 @@
+:root{
+    --textColor:#FFFFFF;
+    --purple:#8F12E1;
+    --black: #050309;
+}
+
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+p{
+    margin: 0;
+    color: var(--textColor);
+}
+.overflow{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.s1bg{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    background-image: url(.//img/7_b.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.s1{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    padding-top: 30px;
+}
+header{
+    z-index: 1;
+    user-select:none;
+}
+.logo{
+    display: flex;
+    align-self: flex-start;
+    float: left;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    float: right;
+    margin: 0;
+    /* align-items: center; */
+}
+a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 0;
+    margin-left: 50px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+li a:hover{
+    border-bottom: 2px solid white;
+}
+.login-hover:hover{
+    border-bottom: none;
+}
+.login{
+    position: relative;
+    width: 200px;
+}
+.login-btn{
+    width: 160px;
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    left: -10px;
+}
+
+.char{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.tairitsu{
+    position: absolute;
+    height: 750px;
+    top: 100px;
+    bottom: -20%;
+    left: 5vw;
+}
+.hikari{
+    position: absolute;
+    z-index: 1;
+    height: 600px;
+    top: 200px;
+    bottom: -10%;
+    right: 12vw;
+}
+.tag{   /* 超感覺rhythm */
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+}
+.arc_logo{
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.googlePlay , .ios{
+    height: 60px;
+    position: absolute;
+    z-index: 2;
+    right:8vw;
+}
+.googlePlay{
+    bottom: 40px;
+
+}
+.ios{
+    bottom: 90px;
+}
+
+/* 
+z-index
+    2 超感覺rhythm / Arcaea Logo / google play / ios
+    1 光
+    0 對立
+    -1 背景 / login-btn
+*/
+
+@media (max-width:1024px){
+    .overflow{
+        height: 80vh;
+    }
+    li{
+        font-size: 15px;
+    }
+    .tairitsu{
+        position: absolute;
+        height: 550px;
+        top: 150px;
+        bottom: -10%;
+        left: 15px;
+    }
+    .hikari{
+        position: absolute;
+        height: 400px;
+        top: 200px;
+        bottom: -10%;
+        right: 20px;
+    }
+    .tag{
+        width: 200px;
+        top: 72%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .arc_logo{
+        height: 150px;
+    }
+    .googlePlay , .ios{
+        height: 45px;
+        position: absolute;
+        z-index: 2;
+    }
+    .ios{
+        bottom: 80px;
+}
+}
+@media (max-width:768px){
+    .googlePlay , .ios{
+        height: 40px;
+        position: absolute;
+        z-index: 2;
+    }
+    .googlePlay{
+        bottom: 40px;
+        right:8vw;
+    }
+    .ios{
+        bottom: 70px;
+        right:8vw;
+    }
+
+
+}
+
+.s2{
+    width: 100%;
+    height:600px;
+    
+    background-color: var(--black);
+    color: #FFFFFF;
+    position: relative;
+    /* display: flex; */
+    /* justify-content: center; */
+    
+}
+h2,h3,h4,h5,p{
+   margin: 0;
+   text-align: center;
+ 
+}
+h2{
+    font-weight: 600;
+    font-size: 36px;
+    padding-top: 40px;
+}
+h3{
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+p{
+    font-weight: 400;
+}
+.songs{
+    padding-top: 36px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.song-card{
+    height: 280px;
+    width: 220px;
+    /* background-color: rgb(145, 134, 154); */
+    position: relative;
+}
+.song-card div{
+    width: 220px;
+    height: 220px;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h4{
+    margin: 10px 0;
+    font-size: 18px;
+}
+h5{
+    font-weight: 300;
+}
