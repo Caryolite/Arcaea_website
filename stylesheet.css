@@ -16,7 +16,7 @@ body{
 ::selection {
     color: white;
     background: var(--purple);
-  }
+}
 
 p{
     margin: 0;
@@ -64,7 +64,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-a{
+ul a{
     color: var(--white);
     text-decoration: none;
     list-style: none;
@@ -231,11 +231,11 @@ h2,h3,h4,h5,p{
 h2{
     font-weight: 600;
     font-size: 36px;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 h3{
     font-weight: 400;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 p{
     font-weight: 400;
@@ -355,4 +355,101 @@ p{
 }
 .char_Tairitsu h5{
     color: #8F12E1;
+}
+
+.s4{
+    width: 100%;
+    /* height: 700px; */
+    position: relative;
+    background-color: var(--black);
+}
+.s4 img{
+    height: 90px;
+    width: auto;
+}
+.scr_sml{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    filter: brightness(0.5);
+    margin-bottom: 40px;
+}
+.scr{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    padding-bottom: 80px;
+}
+.scr img{
+    width: 100%;
+    height: auto;
+}
+
+.s5{
+    width: 100%;
+    /* height: 900px; */
+    position: relative;
+    filter: brightness(0.);
+}
+.s5_bg{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    background-image: url(./img/s5_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.25);
+}
+.video{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+iframe{
+    /* position: absolute; */
+    width: 100%;
+
+    aspect-ratio: 16/9;
+    /* padding-bottom: 40px; */
+    /* margin: 0 15%; */
+}
+.download{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+footer{
+    width: 100%;
+    /* height: 500px; */
+    background-color: #131314;
+    position: relative;
+}
+.linear{
+    width: 100%;
+    height: 3px;
+    z-index: 1;
+    background-image: linear-gradient(to left, #810DCE 0%, #D40BE7 29%, #4812E1 100%);
+}
+.contact{
+    color: var(--white);
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.gray{
+    color: gray;
+    text-align: center;
+    padding: 20px 0;
+}
+.logo_footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
