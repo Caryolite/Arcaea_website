@@ -102,7 +102,7 @@ li a:hover{
 }
 .tairitsu{
     position: absolute;
-    height: 750px;
+    height: 1000px;
     top: 100px;
     bottom: -20%;
     left: 5vw;
@@ -110,7 +110,7 @@ li a:hover{
 .hikari{
     position: absolute;
     z-index: 1;
-    height: 600px;
+    height: 800px;
     top: 200px;
     bottom: -10%;
     right: 12vw;
@@ -323,6 +323,8 @@ p{
  }
 
 .char_Q{
+    width: 100%;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     margin-top: 40px;
@@ -359,7 +361,7 @@ p{
 
 .s4{
     width: 100%;
-    /* height: 700px; */
+    height: 900px;
     position: relative;
     background-color: var(--black);
 }
@@ -372,9 +374,22 @@ p{
     margin: auto;
     display: flex;
     justify-content: space-between;  
-    filter: brightness(0.5);
     margin-bottom: 40px;
+    overflow: hidden;
 }
+
+.scr-1,.scr-2,.scr-3,.scr-4,.scr-5{
+    filter: brightness(0.5);
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.scr-1:hover,.scr-2:hover,.scr-3:hover,.scr-4:hover,.scr-5:hover {
+    filter: brightness(1);
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
 .scr{
     width: 70%;
     margin: auto;
@@ -382,6 +397,7 @@ p{
     padding-bottom: 80px;
 }
 .scr img{
+    position: absolute;
     width: 100%;
     height: auto;
 }
@@ -435,7 +451,7 @@ footer{
     height: 3px;
     z-index: 1;
     background-image: linear-gradient(to left, #810DCE 0%, #D40BE7 29%, #4812E1 100%);
-}
+}   
 .contact{
     color: var(--white);
     padding-top: 40px;
