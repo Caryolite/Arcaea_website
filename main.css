@@ -333,11 +333,12 @@ p{
 .tairitsu_Q,.hikari_Q{
     height: 400px;
     width: auto;
+    filter: drop-shadow(0 0 10px #000);
 }
 .char_Hikari,.char_Tairitsu{
     /* color: var(--white); */
     align-self: flex-end;
-    font-size: 40px;
+    font-size: 40px;    
     font-weight: 900;
     margin: 0 20px;
 }
@@ -469,3 +470,4 @@ footer{
     display: flex;
     justify-content: center;
 }
+

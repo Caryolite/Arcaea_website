@@ -19,7 +19,7 @@ function changeImg(){
     // console.log("c");
     // console.log(scrb[p]);
 
-    // 把不用的圖片隱藏
+    // 把所有的圖片隱藏
     var x = document.querySelectorAll(".scrb");
     var i;
     for (i = 0; i < x.length; i++) {
