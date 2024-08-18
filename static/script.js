@@ -1,5 +1,6 @@
 const scrList = document.querySelectorAll(".scr");
 const scrbList = document.querySelectorAll(".scrb");
+let p = 1;
 
 scrList.forEach((scr) => {
     scr.addEventListener("click", () => {
@@ -14,6 +15,8 @@ const changeImg = (idx) => {
     });
     scrbList[idx-1].style.visibility = 'visible';
 };
+
+changeImg(p);
 
 // const scr1 = document.querySelector(".scr-1");
 // const scr2 = document.querySelector(".scr-2");
