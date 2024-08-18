@@ -1,5 +1,5 @@
 body{
-    background-image: url('./img/story_bg.jpg');
+    background-image: url('../img/story_bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body{
     height: 120%;
     position: absolute;
     z-index: -1;
-    background-image: url('./img/story_bg.jpg');
+    background-image: url('../img/story_bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
