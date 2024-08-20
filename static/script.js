@@ -1,4 +1,4 @@
-const scrList = document.querySelectorAll(".scr");
+const scrList = document.querySelectorAll(".scrs");
 const scrbList = document.querySelectorAll(".scrb");
 let p = 1;
 

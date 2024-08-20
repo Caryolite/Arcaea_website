@@ -298,7 +298,6 @@ h3{
     transition-duration: 200ms;
     cursor: pointer;
 }
-
 .scr-1:hover,.scr-2:hover,.scr-3:hover,.scr-4:hover,.scr-5:hover {
     filter: brightness(1);
     transition-duration: 200ms;
@@ -309,7 +308,7 @@ h3{
     width: 70%;
     margin: auto;
     position: relative;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
 }
 .scr img{
     position: absolute;
