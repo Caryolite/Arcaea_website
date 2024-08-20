@@ -4,12 +4,10 @@
 [figma](https://www.figma.com/proto/C1XoZkemnk3ykEovt85fmr/Arcaea?node-id=1-2&starting-point-node-id=1%3A2&t=gATSV0zfMd9N9i7c-1)
 
 #### 新增
-- 部分註解
-- 登入頁面(未完成)
-- 把通用的css拉出來寫一個檔案
+- 
 
 #### 修復
-- 無
+- 首頁登場人物標題漸層
 
 #### todolist
 - 登入 頁面
