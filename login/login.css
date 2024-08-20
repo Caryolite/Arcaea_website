@@ -3,7 +3,7 @@ body{
 }
 
 .arc_logo{
-    margin: 50px 0;
+    margin: 30px 0;
     display: flex;
     justify-content: center;
 }
@@ -11,26 +11,59 @@ body{
     width: 600px;
     margin: auto;
 }
+.linear_login{
+    width: 660px;
+    height: 3px;
+    margin: auto;
+    z-index: 1;
+    background-image: linear-gradient(to left, #4812E1 0%, #D40BE7 71%, #810DCE 100%);
 
+}
 .container{
     background-color: #1E1E1E;
     width: 600px;
     margin: auto;
-    
     padding: 30px;
-
-
+    padding-bottom: 10px;
     color: var(--white);
     font-weight: 400;
-
+    box-shadow: 4px 4px 15px black;
 }
 h1{
     margin: 0 0 60px 0;
     text-align: center;
 }
-
+form{
+    font-weight: 600;
+}
+.p a{
+    float: right;
+    color: #ac5fdf;
+}
+input{
+    display: block;
+    background-color: #131314;
+    color: var(--white);
+    border: 0;
+    outline: 0;
+    margin: 8px 0 20px 0;
+    width: calc(100% - 40px);
+    padding: 14px 20px;
+    border-radius: 2rem;
+    
+}
+input[value]{
+    background-color: #8F12E1;
+    font-weight: 600;
+    /* font-size: 1.1rem; */
+    width: 100%;
+}
+input[value]:hover{
+    cursor: pointer;
+}
 .no-account{
     color: #626262;
     text-align: center;
     margin: 1rem 0 50px 0;
 }
+
