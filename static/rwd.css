@@ -1,0 +1,24 @@
+/* header */
+@media (max-width: 830px) {
+    header ul {
+        display: none;
+    }
+    .icon_menu {
+        display: block;
+    }
+}
+@media (max-width: 426px) {
+    .icon_menu {
+        width: 24px;
+        margin-right: 10px;
+    }
+}
+/* footer */
+@media (max-width: 426px) {
+    footer {
+        font-size: 0.8rem;
+    }
+    .logo_footer img {
+        width: 100px;
+    }
+}

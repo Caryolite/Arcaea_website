@@ -4,10 +4,11 @@
 [figma](https://www.figma.com/proto/C1XoZkemnk3ykEovt85fmr/Arcaea?node-id=1-2&starting-point-node-id=1%3A2&t=gATSV0zfMd9N9i7c-1)
 
 #### 新增
-- 登入介面完成
+- header, footer rwd (header選項還沒寫功能)
+- 故事頁面rwd
 
 #### 修復
-- footer文字修正
+- 
 
 #### todolist
 - 樂曲排名 / 周邊 頁面設計
