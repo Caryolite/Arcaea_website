@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .arc_logo a {
+        display: flex;
+        justify-content: center;
+    }
+    .arc_logo img {
+        width: 70%;
+        margin: auto;
+    }
+    .linear_login {
+        width: 90%;
+    }
+    .container {
+        width: calc(90% - 60px);
+        padding: 30px;
+        font-size: 1rem;
+        font-size: 0.9rem;
+    }
+    .no-account {
+        font-size: 0.9rem;
+    }
+
+}
+@media (max-width: 426px) {
+    .arc_logo img {
+        width: 300px;
+    }
+    h1 {
+        margin-bottom: 40px;
+    }
+    .linear_login {
+        width: 95%;
+    }
+    .container {
+        width: calc(95% - 20px);
+        padding: 30px 10px;
+    }
+    .no-account {
+        font-size: 0.8rem;
+    }
+}
