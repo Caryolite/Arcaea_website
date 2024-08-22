@@ -6,7 +6,7 @@ const menu = document.querySelector(".menu");
 
 // open menu
 menubtn.addEventListener("click", () => {
-    console.log(114514);
+    let p = 0;
     menubtn.style.display = 'none';
     menu.style.left = 'calc(100% - 170px)';
 
@@ -14,7 +14,7 @@ menubtn.addEventListener("click", () => {
 
 // close menu
 closeMenu.addEventListener("click", () => {
-    console.log(1919810);
+    let p = 1;
     menubtn.style.display = 'block';
     menu.style.left = 'calc(100%)';
 }
@@ -25,9 +25,9 @@ closeMenu.addEventListener("click", () => {
 window.addEventListener('resize', function() {
     let windowWidth = window.innerWidth;
     // console.log("網頁視窗寬度變化: " + windowWidth + "px");
-    if (windowWidth > 840){
+    if ((windowWidth > 840) ||(p = 1)){
         menubtn.style.display = "none";
-    } else{
+    } else if(p = 0){
         menubtn.style.display = "block";
     };
 });
