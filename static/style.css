@@ -1,7 +1,9 @@
 /* 通用css */
 :root{
     --white:#FFFFFF;
+    --light_purple: #8F12E1;
     --purple:#4d0c79;
+    --gray: #131314;
     --black: #050309;
 }
 body{
@@ -23,7 +25,7 @@ a{
 }
 
 /* 反白顏色 */
-::selection {
+::selection{
     color: white;
     background: var(--purple);
 }
@@ -41,14 +43,14 @@ header{
     display: flex;
     float: left;
 }
-ul{
+header ul{
     display: flex;
     justify-content: end;
     float: right;
     margin: 0;
     padding: 0;
 }
-ul a{
+header ul a{
     color: var(--white);
     text-decoration: none;
     list-style: none;
@@ -57,11 +59,11 @@ ul a{
     padding: 20px 0;
     margin-left: 50px;
 }
-li{
+header li{
     text-decoration: none;
     list-style: none;
 }
-li a:hover{
+header li a:hover{
     border-bottom: 2px solid ;
 }
 .login-hover:hover{
@@ -78,7 +80,7 @@ li a:hover{
     top: -20px;
     left: -10px;
 }
-.icon_menu {
+#icon_menu{
     display: none;
 }
 
@@ -86,7 +88,7 @@ li a:hover{
 /* footer */
 footer{
     width: 100%;
-    background-color: #131314;
+    background-color: var(--gray);
     position: relative;
 }
 .linear{
@@ -113,3 +115,41 @@ footer{
     justify-content: center;
 }
 
+.menu{
+    display: none;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: calc(100%);
+    background-color: rgba(5, 3, 9, 0.85);
+    padding: 10px;
+    z-index: 10;
+
+    font-weight: 700;
+    font-size: 18px;
+
+    transition-duration: 100ms;
+}
+.menu img{
+    float: right;
+    position: absolute;
+    top: 48px;
+    right: 20px;
+    cursor: pointer;
+}
+.menu ul{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.menu li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 30px;
+}
+.menu a{
+    color: var(--white);
+    text-decoration: none;
+    list-style: none; 
+    font-size: 18px;
+}

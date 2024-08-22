@@ -4,16 +4,14 @@
 [figma](https://www.figma.com/proto/C1XoZkemnk3ykEovt85fmr/Arcaea?node-id=1-2&starting-point-node-id=1%3A2&t=gATSV0zfMd9N9i7c-1)
 
 #### 新增
-- login page rwd
-
+- 選單
 
 #### 修復
 - 
 
 #### todolist
-- header選項功能
 - 樂曲排名 / 周邊 頁面設計
-- rwd
+- 首頁 rwd
 - google play / apple store 跳轉連結
 
 **本網站非Arcaea官方。本網站無商業使用。 

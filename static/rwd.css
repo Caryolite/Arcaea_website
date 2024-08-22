@@ -1,16 +1,23 @@
 /* header */
-@media (max-width: 830px) {
+@media (max-width: 840px) {
     header ul {
         display: none;
     }
-    .icon_menu {
+    #icon_menu {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
         display: block;
     }
 }
 @media (max-width: 426px) {
-    .icon_menu {
+    #icon_menu {
         width: 24px;
         margin-right: 10px;
+    }
+    .menu a {
+        font-size: 1rem;
     }
 }
 /* footer */
