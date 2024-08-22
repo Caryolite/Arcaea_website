@@ -4,9 +4,12 @@ const menubtn = document.querySelector("#icon_menu");
 const closeMenu = document.querySelector("#close_menu");
 const menu = document.querySelector(".menu");
 
+let p = 0;
+
 // open menu
 menubtn.addEventListener("click", () => {
-    console.log(114514);
+    p = 1;
+    // console.log(114514);
     menubtn.style.display = 'none';
     menu.style.left = 'calc(100% - 170px)';
 
@@ -14,7 +17,8 @@ menubtn.addEventListener("click", () => {
 
 // close menu
 closeMenu.addEventListener("click", () => {
-    console.log(1919810);
+    p = 0;
+    // console.log(1919810);
     menubtn.style.display = 'block';
     menu.style.left = 'calc(100%)';
 }
@@ -28,7 +32,13 @@ window.addEventListener('resize', function() {
     if (windowWidth > 840){
         menubtn.style.display = "none";
     } else{
-        menubtn.style.display = "block";
+        if (p == 1){
+            menubtn.style.display = "none";
+        } else {
+            menubtn.style.display = "block";
+            
+        }
     };
 });
 
+// console.log(p);
