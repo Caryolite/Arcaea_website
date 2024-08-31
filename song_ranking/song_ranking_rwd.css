@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    .swich img {
+        height: 50px;
+    }
+    .swich{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 425px) {
+    .swich img {
+        height: 38px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}
