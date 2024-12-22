@@ -5,7 +5,7 @@
     overflow: hidden;
 }
 .s1bg{
-    height: 100vh;
+    height: 1024px;
     width: 100%;
     margin: auto;
     position: absolute;
@@ -21,18 +21,12 @@
     margin: auto;
     padding-top: 30px;
 }
-
-.char{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-}
 .tairitsu{
     position: absolute;
     height: 1000px;
     top: 100px;
     bottom: -20%;
-    left: 5vw;
+    left: calc(40vw - 400px);
 }
 .hikari{
     position: absolute;
@@ -40,7 +34,7 @@
     height: 800px;
     top: 200px;
     bottom: -10%;
-    right: 12vw;
+    right: calc(40vw - 400px);
 }
 .tag{   /* 超感覺rhythm */
     position: absolute;
@@ -83,28 +77,28 @@ z-index
 
 @media (max-width:1024px){
     .overflow{
-        height: 80vh;
+        height: 768px;
     }
     li{
         font-size: 15px;
     }
     .tairitsu{
         position: absolute;
-        height: 550px;
+        height: 700px;
         top: 150px;
         bottom: -10%;
         left: 15px;
     }
     .hikari{
         position: absolute;
-        height: 400px;
+        height: 600px;
         top: 200px;
         bottom: -10%;
         right: 20px;
     }
     .tag{
         width: 200px;
-        top: 72%;
+        bottom: 200px;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -112,30 +106,20 @@ z-index
         height: 150px;
     }
     .googlePlay , .ios{
-        height: 45px;
-        position: absolute;
-        z-index: 2;
+        display: none;
     }
-    .ios{
-        bottom: 80px;
 }
-}
-@media (max-width:768px){
-    .googlePlay , .ios{
-        height: 40px;
-        position: absolute;
-        z-index: 2;
+@media (max-width:425px){
+    .overflow{
+        height: 900px;
     }
-    .googlePlay{
-        bottom: 40px;
-        right:8vw;
+    .tairitsu{
+        left: -45px;
     }
-    .ios{
-        bottom: 70px;
-        right:8vw;
+    .hikari{
+        top: 350px;
+        right: -40px;
     }
-
-
 }
 
 .s2{
