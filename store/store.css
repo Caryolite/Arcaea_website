@@ -24,9 +24,9 @@
 }
 
 .s2{
-    width: 90%;
-    /* height: 100vh; */
+    width: 80%;
     margin: auto;
+    /* margin: 0 100px; */
 }
 .sort{
     list-style: none;
@@ -109,4 +109,11 @@ h1{
 .album{
     width: 224px !important;
     height: 203px !important;
+}
+
+@media (max-width:576px){
+.sort li {
+    font-size: 0.9rem;
+    white-space:nowrap
+}
 }

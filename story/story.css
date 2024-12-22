@@ -21,7 +21,13 @@
     margin: auto;
     padding-top: 30px;
 }
-
+.para p{
+    margin: 0;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 100;
+    font-weight: 100;
+    color: var(--white);
+}
 .text{
     width: 80%;
     margin: auto;

@@ -109,7 +109,7 @@ z-index
         display: none;
     }
 }
-@media (max-width:425px){
+@media (max-width:576px){
     .overflow{
         height: 900px;
     }
