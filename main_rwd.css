@@ -1,0 +1,46 @@
+@media (max-width:1024px){
+  .overflow{
+      height: 768px;
+  }
+  li{
+      font-size: 15px;
+  }
+  .tairitsu{
+      position: absolute;
+      height: 700px;
+      top: 150px;
+      bottom: -10%;
+      left: 15px;
+  }
+  .hikari{
+      position: absolute;
+      height: 600px;
+      top: 200px;
+      bottom: -10%;
+      right: 20px;
+  }
+  .tag{
+      width: 200px;
+      bottom: 200px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .arc_logo{
+      height: 150px;
+  }
+  .googlePlay , .ios{
+      display: none;
+  }
+}
+@media (max-width:576px){
+  .overflow{
+      height: 900px;
+  }
+  .tairitsu{
+      left: -45px;
+  }
+  .hikari{
+      top: 350px;
+      right: -40px;
+  }
+}

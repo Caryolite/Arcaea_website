@@ -21,7 +21,7 @@
     }
 
 }
-@media (max-width: 426px) {
+@media (max-width: 576px) {
     .arc_logo img {
         width: 300px;
     }

@@ -11,7 +11,8 @@
         display: block;
     }
 }
-@media (max-width: 426px) {
+
+@media (max-width: 576px) {
     #icon_menu {
         width: 24px;
         margin-right: 10px;
@@ -19,9 +20,11 @@
     .menu a {
         font-size: 1rem;
     }
-}
+    .logo img{
+        width: 150px;
+    }
+
 /* footer */
-@media (max-width: 426px) {
     footer {
         font-size: 0.8rem;
     }
