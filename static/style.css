@@ -28,7 +28,7 @@ a{
 /* 反白顏色 */
 ::selection{
     color: white;
-    background: var(--purple);
+    background: #8108d2b9;
 }
 
 

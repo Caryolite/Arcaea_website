@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .arc_logo a {
         display: flex;
         justify-content: center;
@@ -19,6 +19,13 @@
     .no-account {
         font-size: 0.9rem;
     }
+    .linear{
+        display: none;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
 
 }
 @media (max-width: 576px) {
@@ -37,5 +44,6 @@
     }
     .no-account {
         font-size: 0.8rem;
+        /* margin-bottom: 150px; */
     }
 }
