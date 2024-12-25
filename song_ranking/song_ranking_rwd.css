@@ -42,7 +42,7 @@
     }
     .song img:nth-child( 1 ){
         height: 30px;
-        padding-top: 8px;
+        padding-top: 4px;
     }
     .song img:nth-child( 2 ){
         height: 15px;

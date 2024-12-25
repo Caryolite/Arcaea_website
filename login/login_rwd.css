@@ -1,4 +1,7 @@
 @media (max-width: 1024px) {
+    .s1{
+        height: 120vh;
+    }
     .arc_logo a {
         display: flex;
         justify-content: center;
@@ -18,10 +21,6 @@
     }
     .no-account {
         font-size: 0.9rem;
-    }
-
-    .linear{
-        display: none;
     }
 
 }
