@@ -19,12 +19,9 @@
     .no-account {
         font-size: 0.9rem;
     }
+
     .linear{
         display: none;
-    }
-    footer{
-        position: absolute;
-        bottom: 0;
     }
 
 }

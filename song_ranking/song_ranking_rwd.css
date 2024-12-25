@@ -27,7 +27,7 @@
         height: 100px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {    
     .swich img {
         height: 38px;
     }
@@ -36,6 +36,8 @@
     }
 
     .song, .song_small{
+        position: relative;
+        left: -15px;
         gap: 5px;
     }
     .song img:nth-child( 1 ){
@@ -46,14 +48,30 @@
         height: 15px;
     }
     .song img:nth-child( 3 ){
-        height: 60px;
+        height: 90px;
+        margin: 0 5px;
     }
     
-
     .song_small img:nth-child( 2 ){
         height: 10px;
     }
     .song_small img:nth-child( 3 ){
-        height: 60px;
+        height: 80px;
+        margin: 0 5px;
+    }
+
+    .fill{
+        padding: 0px;
+    }
+
+    h3, .song_small h3{
+        font-size: 0.8rem;
+    }
+    h4, h5, .song_small h4, .song_small h5{
+        font-size: 1rem;
+    }
+    .song_small h1{
+        font-size: 16px;
+        margin: 0 10px;
     }
 }

@@ -21,7 +21,8 @@
   }
   .tag{
       width: 200px;
-      bottom: 200px;
+      top: auto;
+      bottom: 160px;
       left: 50%;
       transform: translate(-50%, -50%);
   }
@@ -42,5 +43,8 @@
   .hikari{
       top: 350px;
       right: -40px;
+  }
+  .tag{
+    bottom: 180px;
   }
 }

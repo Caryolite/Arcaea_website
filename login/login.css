@@ -33,6 +33,9 @@ h1{
     margin: 0 0 60px 0;
     text-align: center;
 }
+label{
+    margin-left: 20px;
+}
 form{
     font-weight: 600;
 }
