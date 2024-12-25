@@ -92,11 +92,22 @@ footer{
     background-color: var(--gray);
     position: relative;
 }
-.linear{
+.linear-overflow{
+    position: relative;
     width: 100%;
     height: 3px;
+    overflow: hidden;
+}
+.linear{
+    position: relative;
+    left: 0;
+    width: 300vw;
+    height: 3px;
     z-index: 1;
-    background-image: linear-gradient(to left, #810DCE 0%, #D40BE7 29%, #4812E1 100%);
+    background-image: linear-gradient(to right, #810DCE 0%, #71118D 12%, #D40BE7 25%, #4812E1 32%, #5C0E59 46%, #B22E98 64%, #0D086D 76%, #D40BE7 100%);
+    animation: fade;
+    animation-duration: 32s;
+    animation-iteration-count: infinite;
 }   
 .contact{
     color: var(--white);
@@ -153,4 +164,17 @@ footer{
     text-decoration: none;
     list-style: none; 
     font-size: 18px;
+}
+
+@keyframes fade {
+    0%{
+        left: 0;
+    }
+    40%{
+        left: -200vw;
+    }
+    100%{
+        left: 0;
+    }
+    
 }
