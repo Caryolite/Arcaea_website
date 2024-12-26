@@ -32,6 +32,23 @@
   .googlePlay , .ios{
       display: none;
   }
+  .songs{
+    padding-bottom: 8px;
+    overflow-x: auto;
+    &::-webkit-scrollbar{
+      height: 4px;
+    }
+    &::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background-color: var(--purple);
+        opacity: 0; /* 預設隱藏 */
+        transition: opacity 0.5s ease-in-out; /* 平滑過渡 */
+    }
+    &:hover::-webkit-scrollbar-thumb {
+        opacity: 1;
+    }
+}
+
 }
 @media (max-width:576px){
   .overflow{
