@@ -54,6 +54,8 @@
         padding-bottom: 8px;
         margin-bottom: 40px;
         overflow-x: auto;
+        gap: 10px;
+        /*  */
 
         &::-webkit-scrollbar {
             height: 4px;
@@ -76,6 +78,16 @@
     /* s3 */
     .s3 .span{
         font-size: 1.5rem;
+    }
+    .char_Q{
+        gap: 10px;
+    }
+    .s3 img{
+        height: 300px;
+    }
+    .char_Hikari,.char_Tairitsu{
+    font-size: 2rem;
+    margin: 0;
     }
 
     /* s4 */
@@ -141,11 +153,23 @@
     }
 
     h2{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         padding-top: 20px;
     }
     h3{
         font-size: 1rem;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
+    }
+    .s3 .span{
+        font-size: 1rem;
+    }
+    .s3 img{
+        height: 250px;
+    }
+    .video{
+        width: 85%;
+    }
+    .download img {
+        height: 50px;
     }
 }
