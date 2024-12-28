@@ -11,11 +11,41 @@ scrList.forEach((scr) => {
 });
 
 const changeImg = (idx) => {
-    scrbList.forEach((scrb) => {
-        scrb.style.visibility = 'hidden';
-    });
-    scrbList[idx-1].style.visibility = 'visible';
+    if (window.innerWidth > 1024) {
+        scrbList.forEach((scrb) => {
+            scrb.style.visibility = 'hidden';
+        });
+        scrbList[idx - 1].style.visibility = 'visible';
+    } else {
+        scrbList.forEach((scrb) => {
+            scrb.style.visibility = 'visible';
+
+        })
+    }
 };
+
+// 調整窗口
+window.addEventListener('resize', function () {
+    // let windowWidth = window.innerWidth;
+    // console.log("網頁視窗寬度變化: " + windowWidth + "px");
+    if (window.innerWidth > 1024) {
+        scrbList.forEach((scrb) => {
+            scrb.style.visibility = 'hidden';
+        });
+        scrbList[0].style.visibility = 'visible';
+    } else  {
+        scrbList.forEach((scrb) => {
+            scrb.style.visibility = 'visible';
+        });
+    };
+});
 
 changeImg(page);
 
+// 我草你媽
+// 這她媽是個啥
+
+// 新的好了就的又壞
+// ==
+
+//  if (window.innerWidth <= 1024) 

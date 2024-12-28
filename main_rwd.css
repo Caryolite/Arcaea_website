@@ -1,67 +1,128 @@
-@media (max-width:1024px){
-  .overflow{
-      height: 768px;
-  }
-  li{
-      font-size: 15px;
-  }
-  .tairitsu{
-      position: absolute;
-      height: 700px;
-      top: 150px;
-      bottom: -10%;
-      left: 15px;
-  }
-  .hikari{
-      position: absolute;
-      height: 600px;
-      top: 200px;
-      bottom: -10%;
-      right: 20px;
-  }
-  .tag{
-      width: 200px;
-      top: auto;
-      bottom: 160px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-  }
-  .arc_logo{
-      height: 150px;
-  }
-  .googlePlay , .ios{
-      display: none;
-  }
-  .songs{
-    padding-bottom: 8px;
-    overflow-x: auto;
-    &::-webkit-scrollbar{
-      height: 4px;
+@media (max-width:1024px) {
+    .overflow {
+        height: 768px;
     }
-    &::-webkit-scrollbar-thumb{
-        border-radius: 10px;
-        background-color: var(--purple);
-        opacity: 0; /* 預設隱藏 */
-        transition: opacity 0.5s ease-in-out; /* 平滑過渡 */
+
+    li {
+        font-size: 15px;
     }
-    &:hover::-webkit-scrollbar-thumb {
-        opacity: 1;
+
+    .tairitsu {
+        position: absolute;
+        height: 700px;
+        top: 150px;
+        bottom: -10%;
+        left: 15px;
+    }
+
+    .hikari {
+        position: absolute;
+        height: 600px;
+        top: 200px;
+        bottom: -10%;
+        right: 20px;
+    }
+
+    .tag {
+        width: 200px;
+        top: auto;
+        bottom: 160px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .arc_logo {
+        height: 150px;
+    }
+
+    .googlePlay,
+    .ios {
+        display: none;
+    }
+
+    .songs {
+        padding-bottom: 8px;
+        overflow-x: auto;
+
+        &::-webkit-scrollbar {
+            height: 4px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background-color: var(--purple);
+            opacity: 0;
+            /* 預設隱藏 */
+            transition: opacity 0.5s ease-in-out;
+            /* 平滑過渡 */
+        }
+
+        &:hover::-webkit-scrollbar-thumb {
+            opacity: 1;
+        }
+    }
+
+
+    .s4{
+        height: auto;
+    }
+    .scr_sml {
+        display: none;
+    }
+
+    .scr {
+        width: 100vw;
+        /* margin: 40px; */
+        margin-bottom: 20px;
+        padding: 0;
+        position: relative;
+        display: flex;
+        visibility: visible;
+        /* margin-left: 6vw; */
+        overflow-x: auto;
+        
+        &::-webkit-scrollbar {
+            height: 4px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background-color: var(--purple);
+            opacity: 0;
+            /* 預設隱藏 */
+            transition: opacity 0.5s ease-in-out;
+            /* 平滑過渡 */
+        }
+
+        &:hover::-webkit-scrollbar-thumb {
+            opacity: 1;
+        }
+    }
+
+    .scr img {
+        width: calc(88vw);
+        height: auto;
+        padding: 0 12px;
+
+        position: relative;
     }
 }
 
-}
-@media (max-width:576px){
-  .overflow{
-      height: 900px;
-  }
-  .tairitsu{
-      left: -45px;
-  }
-  .hikari{
-      top: 350px;
-      right: -40px;
-  }
-  .tag{
-    bottom: 180px;
-  }
+@media (max-width:576px) {
+    .overflow {
+        height: 900px;
+    }
+
+    .tairitsu {
+        left: -45px;
+    }
+
+    .hikari {
+        top: 350px;
+        right: -40px;
+    }
+
+    .tag {
+        bottom: 180px;
+    }
 }
