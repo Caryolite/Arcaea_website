@@ -35,13 +35,24 @@
         height: 150px;
     }
 
-    .googlePlay,
-    .ios {
+    .googlePlay, .ios {
         display: none;
     }
 
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+
+    /* s2 */
+    .s2{
+        height: auto;
+    }
     .songs {
         padding-bottom: 8px;
+        margin-bottom: 40px;
         overflow-x: auto;
 
         &::-webkit-scrollbar {
@@ -51,9 +62,9 @@
         &::-webkit-scrollbar-thumb {
             border-radius: 10px;
             background-color: var(--purple);
-            opacity: 0;
+            /* opacity: 0; */
             /* 預設隱藏 */
-            transition: opacity 0.5s ease-in-out;
+            /* transition: opacity 0.5s ease-in-out; */
             /* 平滑過渡 */
         }
 
@@ -62,7 +73,12 @@
         }
     }
 
+    /* s3 */
+    .s3 .span{
+        font-size: 1.5rem;
+    }
 
+    /* s4 */
     .s4{
         height: auto;
     }
@@ -71,14 +87,12 @@
     }
 
     .scr {
-        width: 100vw;
-        /* margin: 40px; */
-        margin-bottom: 20px;
+        width: 90%;
+        margin-bottom: 40px;
         padding: 0;
         position: relative;
         display: flex;
         visibility: visible;
-        /* margin-left: 6vw; */
         overflow-x: auto;
         
         &::-webkit-scrollbar {
@@ -124,5 +138,14 @@
 
     .tag {
         bottom: 180px;
+    }
+
+    h2{
+        font-size: 1.2rem;
+        padding-top: 20px;
+    }
+    h3{
+        font-size: 1rem;
+        padding-bottom: 40px;
     }
 }
